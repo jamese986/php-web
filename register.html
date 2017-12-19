@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SMS Application</title>
+    <!-- CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- js imports -->
+    <script src="https://use.fontawesome.com/1fdc368cde.js"></script>
+  </head>
+  <body>
+    <nav id="make-bootstrap-menu" class="navbar navbar-default navbar-dark">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"">Logo</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html"">Log-in/Register</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="section-wrapper dark-content" id="section-51">
+      <section class="section-padding block" style="padding-top: 80px; padding-bottom: 80px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="mb-small">Sample <strong>Section Title</strong></h2>
+              <p>Progressively reinvent emerging ROI for distinctive experiences. Rapidiously synthesize e-business applications via
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="section-wrapper" id="section-91">
+      <section class="block section-padding" style="padding-top: 80px; padding-bottom: 80px;">
+        <div id="tf-contact" class="text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="section-title center">
+                  <h2 class="mb-small">Do you want to <strong>Get In Touch?</strong></h2>
+                  <p>Authoritatively matrix adaptive data through cross-media convergence. Energistically whiteboard global methodologies and high standards in.</p>
+                </div>
+                <div id="message"></div>
+                <form method="post" action="sendemail.php" id="contactform" class="main-contact-form">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input class="form-control col-md-4" name="name" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name." 
+                          autocomplete="off" type="text">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Email</label>
+                        <input class="form-control col-md-4" name="email" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address." type="text">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Message</label>
+                    <textarea name="comments" class="form-control" id="comments" placeholder="Your Message *" required="" data-validation-required-message="Please enter a message." rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary" data-balloon="Right Click To Edit" data-balloon-pos="down">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer-bs">
+      <div class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Logo</h2>
+            </div>
+            <div class="col-md-4">
+              <h4>Follow Us</h4>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Newsletter</h4>
+              <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
+              <p>
+              </p>
+              <div class="input-group">
+                <input class="form-control" placeholder="Search for..." type="text">
+                <span class="input-group-btn">
+                <button class="btn btn-default" type="button" data-balloon="Right Click To Edit" data-balloon-pos="down"><span class="glyphicon glyphicon-envelope"></span></button>
+                </span>
+              </div>
+              <!-- /input-group -->
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
