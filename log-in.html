@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SMS Application</title>
+    <title>Login - SMS Application</title>
     <!-- CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
@@ -21,7 +21,7 @@
         </div>
         <div id="navbar " class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right ">
-            <li><a href="index.html ">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="register.html">Register</a></li>
             <li><a href="log-in.html">Log-In</a></li>
             <li><a href="index.html#contact">Contact Us</a></li>
@@ -30,55 +30,37 @@
       </div>
     </nav>
     <!--Nav End -->
-    <!-- Sign-Up Instructions 
-      <div class="section-wrapper dark-content" id="section-51">
-        <section class="section-padding block"">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <h2 class="mb-small">Sample <strong>Section Title</strong></h2>
-                <p>Progressively reinvent emerging ROI for distinctive experiences. Rapidiously synthesize e-business applications via
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <!-- END Sign-Up Instructions  -->
     <!-- Sign-Up Form  -->
-    <div class="section-wrapper block section-padding text-center container">
-      <div class="row">
+    <section class="block section-padding">
+      <div class="container text-center">
         <div class="col-md-8 col-md-offset-2">
           <div class="section-title center">
-            <h2 class="mb-small">Register | <strong>Below</strong></h2>
-            <p>Please register using the form below.</p>
+            <h2 class="mb-small">Login | <strong>Below</strong></h2>
+            <p>Please enter your login details below.</p>
           </div>
-          <div id="message"></div>
           <form method="post" action="sendemail.php" id="contactform" class="main-contact-form">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 col-md-offset-1">
                 <div class="form-group">
-                  <label for="exampleInputName">Name</label>
+                  <label for="exampleInputEmail1">Name</label>
                   <input class="form-control col-md-4" name="name" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name." 
                     autocomplete="off" type="text">
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 col-md-offset-1">
                 <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
                   <input class="form-control col-md-4" name="password" placeholder="Your Password *" id="password" required="" data-validation-required-message="Please enter your password." type="text">
                 </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail">Email</label>
-              <input class="form-control col-md-4" name="email" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address." type="text">
-            </div>
-            <p>Forgotten your details? <a href="pwd-reset.html"> Click Here</a></p>
-            <button type="submit" class="btn btn-primary" data-balloon="Right Click To Edit" data-balloon-pos="down">Register</button>
+              <br />
+              <p>Forgotten your details? <a href="pwd-reset.html"> Click Here</a></p>
+              <button type="submit" class="btn btn-primary" data-balloon="Right Click To Edit" data-balloon-pos="down">Submit</button>
           </form>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Sign-Up Form  -->
     <!-- Footer Start-->
     <footer class="footer-c footer-light section-padding text-center">
