@@ -6,7 +6,7 @@ HTML5
 CSS3
 
 ## Browser Testing
-THe site has been tested in the following browsers and works without issue.
-*Mozilla Firefox (57-60)
-*Chrome(63-66) + Chrome mobile(IOS + Android) 
-*Safari (10-11)
+The site has been tested in the following browsers and works without issue.
+* Mozilla Firefox (57-60)
+* Chrome(63-66) + Chrome mobile(IOS + Android) 
+* Safari (10-11)
